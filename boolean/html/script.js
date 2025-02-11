@@ -26,6 +26,15 @@ else {
 }
 
 
+x = 100;
+y = 50;
+
+if(x < y) {
+    console.log('x é menor que y');
+}
+else {
+    console.log('x é maior que y');
+}
 /*Operador lógico de negação
 *O operador (!) nega uma operação booleana. Ou seja, (!true) é igual a (false) 
 True
