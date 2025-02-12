@@ -35,6 +35,33 @@ if(x < y) {
 else {
     console.log('x é maior que y');
 }
+
+var possuiGraduacao = false;
+
+if(possuiGraduacao) {
+  console.log('Possui graduação');
+  var a = 10;
+} 
+else {
+  console.log('Não possui graduação');
+}
+console.log(a);
+// retorna Possui Graduação e não executa o else
+
+
+var possuiPos = false;
+var possuiDoutorado = true;
+
+if(possuiPos) {
+    console.log('Possui Pós Graduação e Doutorado');
+}
+else if(possuiDoutorado) {
+    console.log('Possui Doutorado, mas não possui Pós Graduação');
+}
+else {
+    console.log('Não possui Pós Graduação');
+}
+
 /*Operador lógico de negação
 *O operador (!) nega uma operação booleana. Ou seja, (!true) é igual a (false) 
 True
@@ -65,3 +92,27 @@ quando usamos (===)
 -10 != 15 // true
 -10 != '10' // false
 -10 !== '10' // true*/
+
+
+
+var b = 'carro';
+
+console.log(b == 'Carro');  // (False) pois um esta com "c" maiusculo e outro minusculo
+
+var c = 'Gato';
+
+console.log(c === 'Gato'); // (True) pois as duas strings estão iguais
+
+var d = 'casa';
+
+console.log(d !== 'casa'); // (False) pois as duas strings não são diferentes
+
+var e = '10';
+
+console.log(e == 10); // (True) pois o valor está igual
+
+var f = 20;
+
+console.log(f === '20'); // (False) pois os tipos são diferente. Um é uma string e ou é um numeral
+
+var g = 10;
