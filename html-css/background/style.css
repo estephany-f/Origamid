@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+.bicicleta {
+    height: 600px;
+    background-color: lightblue;
+    background-image: url("../background/img/bicicleta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+}
+ h1 {
+    margin: auto;
+    background-color: white;
+    padding: 1rem 2rem;
+ }
+
+ .pattern {
+    height: 500px;
+    background-color: lightcoral;
+    background-image: url("../background/img/pattern.svg");
+    background-size: 150px;
+    background-repeat: repeat;
+ }
+
+ .linear {
+    height: 500px;
+    background-image: linear-gradient(#ff0000, #ff02d5, #800080, #000)
+ }
+
+ .radial {
+    height: 500px;
+    background-image: radial-gradient(circle, #0000ff, #add8e6, #7cf37c, #008000);
+ }
