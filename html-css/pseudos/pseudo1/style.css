@@ -1,0 +1,61 @@
+a {
+    background: #caf;
+    color: #217;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    background: #adf;
+    color: #147;
+}
+
+a:focus {
+    background: #cfa;
+    color: #371;
+}
+
+a:active {
+    background: #ffa;
+    color: #761;
+}
+
+/* a:visited  {
+    background: #fda;
+    color: #731;
+} */
+
+
+/* Primeiro elemento */
+.lista-1 li:first-child {
+    background: #caf;
+}
+
+/* Último elemento */
+.lista-1 li:last-child {
+    background: #cfa;
+}
+
+/* Terceiro elemento */
+.lista-1 li:nth-child(3) {
+    background: #fda;
+}
+
+/* Elementos pares */
+.lista-2 li:nth-child(even) {
+    background: #adf;
+}
+
+/* Elementos ímpares */
+.lista-2 li:nth-child(odd) {
+    background: #cfa;
+}
+
+/* De 4 em 4 */
+.lista-2 li:nth-child(4n) {
+    background: #caf;
+}
+
